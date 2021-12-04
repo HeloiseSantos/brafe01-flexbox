@@ -15,7 +15,7 @@ O foco do mesmo foi construir um layout responsivo utilizando Flexbox.
 - Utilizando o terminal:
 
   # Clone o repositório: 
-  $ git clone https://github.com/HeloiseSantos/brafe01-puro.git
+  $ git clone https://github.com/HeloiseSantos/brafe01-flexbox.git
 
   # Abra o projeto em uma IDE (Preferencialmente no Visual Studio Code para utilizar a extensão abaixo)
   
