@@ -31,14 +31,19 @@ body {
 	align-items: center;
 }
 
-.menu-nav a {
-	text-decoration: none;
-	color: #fff;
-	font-size: 1.125em;
+.menu-logo {
+	margin: 0 10px;
 }
 
 .menu-nav {
 	flex: 1;
+	margin: 0 10px;
+}
+
+.menu-nav a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.125em;
 }
 
 .menu-nav ul {
@@ -314,4 +319,55 @@ h2.produtos-mineiro::before {
 
 .footer-img {
 	margin: 0 10px;
+}
+
+@media (max-width: 739px) {
+	.container-menu,
+	.container-sobre,
+	.container-produtos,
+	.locais-item,
+	.container-assine,
+	.container-footer {
+		flex-direction: column;
+		max-width: 300px;
+	}
+
+	.menu-nav {
+		margin: 0;
+	}
+
+	.menu-logo {
+		margin: 0 0 20px 0;
+	}
+
+	.menu-nav ul li a {
+		padding-left: 0;
+	}
+
+	.intro {
+		padding: 60px 0;
+	}
+
+	.sobre-item {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	.locais-item {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.locais-img,
+	.locais-info {
+		margin: 10px 0 0 0;
+	}
+
+	.assine-info {
+		margin-bottom: 40px;
+	}
+
+	.footer-img {
+		margin-top: 20px;
+	}
 }
