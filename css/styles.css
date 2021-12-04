@@ -13,15 +13,42 @@ body {
 	box-sizing: border-box;
 }
 
+/* Classes genéricas */
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
 /* Menu */
 .menu {
 	background: #252525;
+	padding: 15px 0;
+}
+
+.container-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .menu-nav a {
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.125em;
+}
+
+.menu-nav {
+	flex: 1;
+}
+
+.menu-nav ul {
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+
+.menu-nav ul a {
+	padding: 10px;
 }
 
 /* Intro */
